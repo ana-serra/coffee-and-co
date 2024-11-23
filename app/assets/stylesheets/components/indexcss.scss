@@ -1,0 +1,19 @@
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; // 100% of the viewport height
+    padding: 10rem;
+
+
+}
+
+.home-img {
+    width: 25rem;
+    height: 24rem;
+    max-width: 28rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}

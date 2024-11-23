@@ -29,3 +29,12 @@
 
 en:
   hello: "Hello world"
+
+en:
+  faker:
+    coffee:
+      roast_level:
+        - "Light"
+        - "Medium"
+        - "Dark"
+        - "Espresso"

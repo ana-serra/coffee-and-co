@@ -1,0 +1,8 @@
+<h1><%= @coffee.name %></h1>
+<p><%= @coffee.description %></p>
+
+<% if @coffee.picture.attached? %>
+  <%= image_tag @coffee.picture, alt: @coffee.name %>
+<% else %>
+  <p>No picture available</p>
+<% end %>

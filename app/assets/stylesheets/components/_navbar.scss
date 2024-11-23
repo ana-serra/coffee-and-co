@@ -1,12 +1,37 @@
-.navbar-lewagon {
+/* app/assets/stylesheets/application.css */
+
+.navbar {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: 1.5em;
+  display: flex;
   justify-content: space-between;
-  background: white;
+  align-items: center;
+  padding: 15px;
+  background-color: #333; /* Dark background */
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.navbar-left .logo {
+  width: 120px; /* Adjust size as needed */
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-right {
+  display: flex;
+  align-items: center;
 }
+
+.navbar-link {
+  margin-left: 20px;
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  color: #f5a623; /* Highlight color on hover */
+}
+
+.navbar-icon {
+  width: 25px; /* Adjust icon size */
+  height: 25px;
+}
+

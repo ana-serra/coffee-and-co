@@ -1,0 +1,14 @@
+<nav class="navbar">
+  <div class="navbar-left">
+    <%= link_to image_tag('logo.ppg', alt: 'Coffee Logo', class: 'logo'), root_path %>
+  </div>
+
+  <div class="navbar-right">
+    <%= link_to root_path, class: 'navbar-link' do %>
+      <%= image_tag 'home_icon.png', alt: 'Home', class: 'navbar-icon' %>
+    <% end %>
+    <%= link_to '#', class: 'navbar-link' do %>
+      <%= image_tag 'search_icon.png', alt: 'Search', class: 'navbar-icon' %>
+    <% end %>
+  </div>
+</nav>
